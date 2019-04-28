@@ -8,8 +8,10 @@ We will be creating a new truffle project in order to do this, and we will deplo
 
 ## Truffle
 
+Truffle is your dev pack for quick-start programming with Ethereum.
 
-... what is truffle ...
+https://truffleframework.com/
+
 
 ##### Install truffle
 
@@ -41,9 +43,23 @@ Here is the smart contract: [./contracts/SimpleVoter.sol](./contracts/SimpleVote
 ## Deploy using Remix and Metamask
 
 
-... what is Metamask ...
+### Metamask 
 
-... what is Remix ...
+Metamask is a plugin for the Google Chrome browser (and the Brave browser) which is an Ethereum wallet.       
+It holds your private keys for you in a secure way, and connects to the Ethereum blockchain when you want to send a transaction (including creating or accessing a smart contract).
+
+https://metamask.io/
+
+Your ethereum dApps need to access the ethereum chain, just like a traditional app accesses a database.   
+There needs to be a node that allows your app to connect to it.    
+Metamask is able to connect to the etherum chain by making use of the Infura (https://infura.io/) service, which is mainnet and testnet ethereum nodes that allow for public connections.
+
+
+### Remix
+
+Remix is an online IDE for Ethereum smart contract development and deployment.     
+It includes a generic UI that lets you call any methods on a deployed smart contract.    
+It is the most straight forward tool available for putting a smart contract onto the Ethereum mainnet or testnet.
 
 ##### Steps to deploy using Remix/Metamask
 
