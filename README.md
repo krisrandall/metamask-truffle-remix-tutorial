@@ -16,7 +16,7 @@ https://truffleframework.com/
 ##### Install truffle
 
 ```
-npm install -g truffle
+npx install -g truffle
 ```
 
 ##### Create a new truffle project
