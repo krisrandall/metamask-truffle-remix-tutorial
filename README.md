@@ -96,10 +96,21 @@ TODO
 * https://truffleframework.com/docs/truffle/testing/testing-your-contracts
 * https://remix.ethereum.org
 * https://metamask.io/
-* 
+*
 
-# A final note about dApps
+-----
+
+
+# More info / A final note about dApps
 
 A dApp is a blockchain application.    
-That usually means a smart contract (or many smart contract) and some UI code - very often a web app.
-In this tutorial we have only looked at creating a smart contract and writing .... WIP .... 
+That usually means a smart contract (or many smart contract) and some UI code; usually a web app.
+In this tutorial we have only looked at writing, testing, and deploying a smart contract.    
+
+To learn about creating the frontend, and creating a full dApp, check out the truffle tutorials : https://truffleframework.com/tutorials
+
+Especially recommended for your first dApp is : https://truffleframework.com/tutorials/pet-shop    
+
+To learn about making a react/redux dApp see : https://truffleframework.com/tutorials/getting-started-with-drizzle-and-react
+
+To learn more about Ethereum, checkout : https://truffleframework.com/tutorials/ethereum-overview
