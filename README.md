@@ -82,12 +82,26 @@ Remix is an online IDE for Ethereum smart contract development and deployment.
 It includes a generic UI that lets you call any methods on a deployed smart contract.    
 It is the most straight forward tool available for putting a smart contract onto the Ethereum mainnet or testnet.
 
-##### Steps to deploy using Remix/Metamask
 
-...
-TODO 
-...
+#### Steps to deploy to Ropsten Test Network using Remix/Metamask
 
+1. Open Remix (https://remix.ethereum.org)
+2. Paste the code from [./contracts/SimpleVoter.sol](./contracts/SimpleVoter.sol) into the code window
+3. Click *Compile > Start* to compile
+4. Unlock Metamask
+5. In metamask use *Deposit > Get Ether > request 1 ether from faucet* (in order to get some ether for gas)
+6. Wait a moment (~ 15 seconds) for the ether to appear in your metamask balance 
+7. Click *Run > Deploy* in Remix, and click *Confirm* in the MetaMask popup
+8. Wait a moment (~ 15 seconds) for the contract to be deployed
+9. Remix will then show a *"Deployed Contracts"* box in the bottom right which can be interacted with to cast a (*true* or *false*) vote, and also to see the number of yeses and nos
+
+##### A public smart contract available to all
+
+If you keep track of your contract address from step 8 above, and share that and the ABI with someone else then they can also interact (vote) with your smart contract.  (seee https://github.com/krisrandall/EthereumSimpleVoter for steps to do that).
+
+##### Etherscan
+
+In Remix it will show you the links to the transactions in etherscan for your deployment (in step 8) and for any votes you cast (in step 9).  Etherscan is an independent node that allows a form of convenient proof to the internet public of Ethereum transactions that have occured, and it conveniently also supports the rosten test network.
 
 ## References 
 
@@ -96,7 +110,6 @@ TODO
 * https://truffleframework.com/docs/truffle/testing/testing-your-contracts
 * https://remix.ethereum.org
 * https://metamask.io/
-*
 
 -----
 
