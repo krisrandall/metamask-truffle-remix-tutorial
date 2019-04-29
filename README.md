@@ -6,6 +6,8 @@ In this tutorial we will be making a really simple Ethereum smart contract, whic
 We will be creating a new truffle project in order to do this, and we will deploy the contract to the Ropsten test net using Remix.
 
 
+## Developing and testing a smart contract with Truffle and Ganache
+
 ### Truffle
 
 Truffle is your dev pack for quick-start programming with Ethereum.
@@ -39,7 +41,7 @@ The truffle framework also allows creating Javascript tests for your smart contr
 See [./test/test-simple-voter.js](./test/test-simple-voter.js)
 
 
-### Ganache
+##### Ganache
 
 For your dApps to run, they must connect to a blockchain.    
 For development and testing you will want to have a "test" blockchin which runs on your machine.     
