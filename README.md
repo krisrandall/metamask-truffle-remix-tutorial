@@ -1,4 +1,4 @@
-# Truffle, Metamask, & Remix Tutorial  -  Simple Voting Contact
+# Truffle, Metamask, & Remix Tutorial  -  Simple Voting Contract
 
 
 In this tutorial we will be making a really simple Ethereum smart contract, which allows accounts to make a yes or no vote and tracks the results.
