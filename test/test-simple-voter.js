@@ -1,7 +1,5 @@
 const SimpleVoter = artifacts.require('SimpleVoter.sol');
 
-
-
 contract ('SimpleVoter contract', (accounts) => {
     let simpleVoter;
 
