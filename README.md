@@ -3,7 +3,7 @@
 
 In this tutorial we will be making a really simple Ethereum smart contract, which allows accounts to make a yes or no vote and tracks the results.
 
-We will be creating a new truffle project in order to do this, we will also create some tests for the smart contract, and we will then deploy the contract to the Ropsten testnet using Remix.
+We will be creating a new Truffle project in order to do this, we will also create some tests for the smart contract, and we will then deploy the contract to the Ropsten testnet using Remix.
 
 
 ## Developing and testing a smart contract with Truffle and Ganache
@@ -21,7 +21,7 @@ https://truffleframework.com/
 npm install -g truffle
 ```
 
-##### Create a new truffle project 
+##### Create a new Truffle project 
 
 ```
 mkdir metamask-truffle-remix-tutorial
@@ -42,7 +42,7 @@ Here is the smart contract: [./contracts/SimpleVoter.sol](./contracts/SimpleVote
 
 ##### Writing a test
 
-The truffle framework also allows creating Javascript tests for your smart contracts.
+The Truffle framework also allows creating Javascript tests for your smart contracts.
 
 See [./test/test-simple-voter.js](./test/test-simple-voter.js)
 
